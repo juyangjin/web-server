@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원 탈퇴</title>
+  </head>
+  <body>
+    <h1> 로그인이 안 되어 있습니다.</h1> 
+    <h2> 로그인없이 탈퇴하려면 하려면 아이디, 암호를 입력해 주세요.</h2>
+    <form action="/users/leave2" method="POST">
+      <table>
+        <tr>
+          <td><input type="text" name="id" placeholder="탈퇴할 아이디 : " /></td>
+        </tr>
+        <tr>
+          <td><input type="text" name="password" placeholder="탈퇴할 암호 :" /></td>
+        </tr>
+      </table>
+      <input type="submit" value="로그인" />
+    </form>
+  </body>
+</html>
